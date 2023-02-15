@@ -302,6 +302,10 @@ header {
         padding-left: 3vh;
     }
 
+    .button-container {
+        text-align: center;
+    }
+
     .mid_top-container h1 {
         font-size: 3vh;
     }
