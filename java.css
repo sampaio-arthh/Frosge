@@ -114,7 +114,8 @@ header {
 }
 
 .main-part {
-    height: 100vh;
+    display: block;
+    height: 140vh;
     text-align: center;
     background-color: #242424;
 }
@@ -142,10 +143,29 @@ header {
 
 #code {
     margin: 4vh 0;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .under1 {
     height: 100vh;
     background-color: #242424;
+    text-align: center;
+}
+
+.under1 h3 {
+    color: #fefefe;
+    font-size: 25px;
+    padding-bottom: 20px
+}
+
+.under1 h4 {
+    font-size: 19px;
+    color:  #fefefe;
+    padding-bottom: 10px;
+}
+
+.under1 h5 {
+    color: beige;
+    font-size: 15px;
+    padding-bottom: 5px;
 }
