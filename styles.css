@@ -76,7 +76,7 @@ header {
     .hamburguer-menu .line {
         width: 30px;
         height: 3px;
-        background: #fefefe;
+        background: #fcfcfc;
         margin: 6px 0;
     }
     .navbar {
@@ -275,6 +275,36 @@ header {
     text-align: center;
 }
 
+.footer {
+    height: 20vh;
+    background: #252525;
+    color: #fefefe;
+    text-align: center;
+}
+
+.rights {
+    padding-top: 3vh;
+}
+
+.ref-container {
+    display: flex;
+    justify-content: space-between;
+    color: #fefefe;
+    margin: 15px 50vh;
+}
+
+.ref-container a:link {
+    color: #fefefe;
+}
+
+.ref-container a:visited {
+    color: #fefefe;
+}
+
+.ref-container a:hover {
+    color: #dddddd;
+}
+
 @media screen and (max-width: 960px) {
     .top-container {
         display: grid;
@@ -348,15 +378,12 @@ header {
         from { border-color: transparent }
         to { border-color: dimgray; }
       }
-}
 
-.footer {
-    height: 20vh;
-    background: #252525;
-    color: #fefefe;
-    text-align: center;
-}
+      .ref-container {
+        display: flex;
+        justify-content: space-between;
+        color: #fefefe;
+        margin: 15px 10vh;
+    }
 
-.rights {
-    padding-top: 3vh;
 }
