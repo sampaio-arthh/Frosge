@@ -142,7 +142,7 @@ header {
 }
 
 #code {
-    margin: 4vh 0;
+    margin-top: 4vh;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
@@ -154,18 +154,63 @@ header {
 
 .under1 h3 {
     color: #fefefe;
-    font-size: 25px;
-    padding-bottom: 20px
+    font-size: 34px;
+    padding-bottom: 20px;
+    font-family: "Kumbh Sans";
 }
 
 .under1 h4 {
-    font-size: 19px;
+    font-size: 28px;
     color:  #fefefe;
     padding-bottom: 10px;
+    font-family: "Kumbh Sans";
 }
 
 .under1 h5 {
     color: beige;
-    font-size: 15px;
+    font-size: 24px;
     padding-bottom: 5px;
+    font-family: "Montserrat";
+}
+
+@media screen and (max-width: 960px) {
+    .main-part {
+        height: 110vh;
+    }
+
+    #java-logo {
+        width: 25vh;
+    }
+
+    .main-part h1 {
+        font-size: 29px;
+    }
+
+    .main-part h2 {
+        font-size: 14px;
+    }
+
+    .main-part h3 {
+        font-size: 19px;
+    }
+
+    .under1 {
+        height: 80vh;
+    }
+
+    .under1 h3 {
+        font-size: 26px;
+    }
+
+    .under1 h4 {
+        font-size: 20px;
+    }
+
+    .under1 h5 {
+        font-size: 18px;
+    }
+
+    #code {
+        width: 60vh
+    }
 }
