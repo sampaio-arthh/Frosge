@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Unbounded", sans-serif;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    background: #fefefe;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background: #292929;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+}
+
+.logo {
+    font-family: "Unbounded", sans-serif;
+    font-size: 28px;
+    font-weight: 900;
+    color: orangered;
+}
+
+.hamburguer-menu {
+    display: none;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li a {
+    display: block;
+    color: #fefefe;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0 5px;
+}
+
+.navbar ul li a:hover {
+    color: #11101b;
+    background: #fefefe;
+}
+
+.navbar ul li a .active {
+    color: #fefefe;
+    background: #fefefe;
+}
+
+@media only screen and (max-width: 1300px) {
+    header{
+        padding: 0 50px;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    header{
+        padding: 0 30px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .hamburguer-menu {
+        display: block;
+        cursor: pointer;       
+    }
+    .hamburguer-menu .line {
+        width: 30px;
+        height: 3px;
+        background: #fefefe;
+        margin: 6px 0;
+    }
+    .navbar {
+        height: 0;
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: #212121;
+        transition: 0.2s;
+        overflow: hidden;
+    }
+
+    .navbar.active {
+        height: 30vh;
+    }
+    
+    .navbar ul {
+        display: block;
+        width: fit-content;
+        margin: 1vh auto auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+    }
+
+    .navbar.active ul {
+        opacity: 1;
+    }
+
+    .navbar ul li a {
+        margin-bottom: 12px;
+    }
+}
+
+.upper-main {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 5vh;
+    height: 100vh;
+    background: #292929;
+}
+.upper-main span {
+    padding: 3.4vh 0;
+    color: #fefefe;
+}
+
+.stack {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  
+  .stack span {
+    font-weight: bold;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    font-size: 4rem;
+    --stack-height: calc(100% / var(--stacks) - 1px);
+    --inverse-index: calc(calc(var(--stacks) - 1) - var(--index));
+    --clip-top: calc(var(--stack-height) * var(--index));
+    --clip-bottom: calc(var(--stack-height) * var(--inverse-index));
+    clip-path: inset(var(--clip-top) 0 var(--clip-bottom) 0);
+    animation: stack 200ms cubic-bezier(.46,.29,0,1.24) 1 backwards calc(var(--index) * 100ms), glitch 1s ease infinite 1s alternate-reverse;
+  }
+  
+  .stack span:nth-child(odd) { --glitch-translate: 12px; }
+  .stack span:nth-child(even) { --glitch-translate: -12px; }
+  
+  @keyframes stack {
+    0% {
+      opacity: 0;
+      transform: translateX(-50%);
+      text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
+    };
+    60% {
+      opacity: 0.5;
+      transform: translateX(50%);
+    }
+    80% {
+      transform: none;
+      opacity: 1;
+      text-shadow: 2px -3px 0 red, -2px 3px 0 blue;
+    }
+    100% {
+      text-shadow: none;
+    }
+  }
+  
+@keyframes glitch {
+    0% {
+      text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
+      transform: translate(var(--glitch-translate));
+    }
+    2% {
+      text-shadow: 2px -3px 0 red, -2px 3px 0 blue;
+    }
+    4%, 100% {  text-shadow: none; transform: none; }
+}
