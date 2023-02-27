@@ -238,6 +238,7 @@ header {
 
 .bottom-main h3 {
     color: #fefefe;
+    padding-top: 40px;
 }
 
 .download-b {
@@ -252,8 +253,9 @@ header {
 }
 
 iframe {
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 18px;
+    border-color: transparent;
 }
 
 
