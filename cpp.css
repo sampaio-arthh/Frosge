@@ -217,6 +217,7 @@ header {
 .text-3 {
     text-align: right;
     color: #eeeeee;
+    
 }
 
 .text-container1 b {
@@ -250,6 +251,17 @@ header {
     margin-bottom: 7vh;
     border-width: 5px;
     border-color: orangered;
+}
+
+.download-b:hover {
+    background: #49f232;
+    color: black;
+    border-color: rgba(143, 240, 91);
+}
+
+.download-b:active {
+    background: #279518;
+    border-color: #0a7919;
 }
 
 iframe {

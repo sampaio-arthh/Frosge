@@ -116,9 +116,9 @@ header {
 
 .main-part {
     display: block;
-    height: 140vh;
+    height: 100vh;
     text-align: center;
-    background-color: #242424;
+    background-color: #191919;
 }
 
 .main-part span {
@@ -187,21 +187,28 @@ header {
     padding: 3.4vh 0;
     color: azure;
     font-family: "Montserrat";
-    font-size: 19px;
+    font-size: 29px;
+    
 }
 
-.main-part h3 {
+.mid-area {
+    background: #212121;
+    height: 100vh;
+    text-align: center;
+}
+
+.mid-area h3 {
     color: coral;
+    padding: 7vh 0;
 }
 
 #code {
-    margin-top: 4vh;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 .under1 {
     height: 100vh;
-    background-color: #242424;
+    background-color: #262626;
     text-align: center;
 }
 
