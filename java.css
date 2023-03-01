@@ -303,5 +303,12 @@ header {
     #code {
         width: 60vh
     }
+
+    .ref-container {
+        display: flex;
+        justify-content: space-between;
+        color: #fefefe;
+        margin: 15px 10vh;
+    }
 }
 

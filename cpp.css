@@ -121,7 +121,7 @@ header {
     text-align: center;
     padding-top: 5vh;
     height: 100vh;
-    background: #292929;
+    background: #191919;
 }
 .upper-main span {
     padding: 2.7vh 0;
@@ -187,7 +187,7 @@ header {
 
 .mid-main {
     height: 100vh;
-    background: #232323;
+    background: #121212;
     display: grid;
 }
 
@@ -231,7 +231,7 @@ header {
 
 .bottom-main {
     text-align: center;
-    background: #262626;
+    background: #191919;
     height: 100vh;
     display: grid;
     align-items: center;
@@ -300,4 +300,65 @@ iframe {
 
 .ref-container a:hover {
     color: #dddddd;
+}
+
+@media screen and (max-width:960px) {
+    .stack span {
+        font-size: 2.8rem;
+    }
+
+    .upper-main {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #code {
+        width: 90vw;
+    }
+
+    .text-container1 {
+        display: grid;
+    }
+
+    .text-container1 h2 {
+        font-size: 20px;
+    }
+
+    .text-1 {
+        text-align: left;
+    }
+
+    .text-2 {
+        text-align: center;
+    }
+
+    .text-3 {
+        text-align: right;
+        max-width: 80vw;
+    }
+
+    .bottom-main {
+        display: grid;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .bottom-main h3 {
+        margin: 0 auto;
+        font-size: 24px;
+    }
+
+    iframe {
+        width: 90vw;
+        height: 50vh;
+    }
+
+    .ref-container {
+        display: flex;
+        justify-content: space-between;
+        color: #fefefe;
+        margin: 15px 10vh;
+    }
 }
