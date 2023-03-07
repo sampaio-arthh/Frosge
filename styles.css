@@ -28,6 +28,10 @@ header {
     color: orangered;
 }
 
+.logo a:visited {
+    color: orangered;
+}
+
 .hamburguer-menu {
     display: none;
 }
@@ -89,6 +93,7 @@ header {
         background: #212121;
         transition: 0.2s;
         overflow: hidden;
+        z-index: 3;
     }
 
     .navbar.active {
@@ -102,6 +107,10 @@ header {
         text-align: center;
         transition: 0.5s;
         opacity: 0;
+    }
+
+    .logo a:visited {
+        color: orangered;
     }
 
     .navbar.active ul {

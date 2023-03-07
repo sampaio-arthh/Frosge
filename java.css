@@ -29,6 +29,10 @@ header {
     color: orangered;
 }
 
+.logo a:visited {
+    color: orangered;
+}
+
 .hamburguer-menu {
     display: none;
 }
@@ -90,12 +94,17 @@ header {
         background: #212121;
         transition: 0.2s;
         overflow: hidden;
+        z-index: 3;
     }
 
     .navbar.active {
         height: 30vh;
     }
     
+    .logo a:visited {
+        color: orangered;
+    }
+
     .navbar ul {
         display: block;
         width: fit-content;
@@ -265,11 +274,11 @@ header {
 
 @media screen and (max-width: 960px) {
     .main-part {
-        height: 110vh;
+        height: 100vh;
     }
 
     #java-logo {
-        width: 25vh;
+        width: 43vw;
     }
 
     .main-part span {
@@ -277,7 +286,7 @@ header {
     }
 
     .main-part h2 {
-        font-size: 14px;
+        max-width: 70vw;
     }
 
     .main-part h3 {
