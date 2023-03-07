@@ -90,6 +90,7 @@ header {
         background: #212121;
         transition: 0.2s;
         overflow: hidden;
+        z-index: 3;
     }
 
     .navbar.active {
@@ -328,10 +329,12 @@ iframe {
 
     .text-1 {
         text-align: left;
+        max-width: 80vw;
     }
 
     .text-2 {
         text-align: center;
+        max-width: 80vw;
     }
 
     .text-3 {
