@@ -29,6 +29,10 @@ header {
     color: orangered;
 }
 
+.logo a:visited {
+    color: orangered;
+}
+
 .hamburguer-menu {
     display: none;
 }
@@ -95,6 +99,10 @@ header {
 
     .navbar.active {
         height: 30vh;
+    }
+
+    .logo a:visited {
+        color: orangered;
     }
     
     .navbar ul {
