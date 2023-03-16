@@ -257,3 +257,35 @@ h4 {
     font-family: "Kumbh Sans";
     font-size: 22px;
 }
+
+.down-under {
+    height: 100vh;
+    background: #181818;
+}
+
+.down-under h3 {
+    color: #fcfcfc;
+    padding-top: 30px;
+    font-size: 29px;
+}
+
+.img-container-down {
+    text-align: center;
+}
+
+#python {
+    width: 40vw;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.down-under h4 {
+    max-width: 500px;
+    margin: auto;
+    font-weight: 400;
+}
+
+.down-under h4 b {
+    font-family: "Kumbh Sans";
+    font-weight: 700;
+    color: greenyellow;
+}
