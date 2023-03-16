@@ -32,6 +32,10 @@ header {
     color: orangered;
 }
 
+.logo a:active {
+    color: orangered;
+}
+
 .hamburguer-menu {
     display: none;
 }
