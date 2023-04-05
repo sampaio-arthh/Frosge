@@ -219,6 +219,7 @@ header {
     height: 100vh;
     background-color: #262626;
     text-align: center;
+    padding-top: 5vh;
 }
 
 .under1 h3 {
@@ -229,7 +230,7 @@ header {
 }
 
 .under1 h4 {
-    font-size: 28px;
+    font-size: 26px;
     color:  #fefefe;
     padding-bottom: 10px;
     font-family: "Kumbh Sans";
@@ -237,8 +238,8 @@ header {
 
 .under1 h5 {
     color: beige;
-    font-size: 24px;
-    padding-bottom: 5px;
+    font-size: 20px;
+    padding-top: 5px;
     font-family: "Montserrat";
 }
 
