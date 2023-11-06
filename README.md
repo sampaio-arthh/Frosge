@@ -2,15 +2,14 @@
 
 ### O que é **Frosge** ?
 
-Frosge é o nome da equipe que pretendo reunir para trabalhar em projetos de desenvolvimento similares e/ou mais ambiciosos.
+Frosge representa uma equipe fictícia criada para simular os valores de implementação do projeto.
 
 ## Qual é o objetivo desse projeto ?
 
-  Nesse projeto, desejo evoluir minhas habilidades de desenvolvimento web, desenvolvendo um site do começo.
-  Planejo também criar um modelo de site que eu possa usar futuramente.
+  Nesse projeto, desejo evoluir minhas habilidades de desenvolvimento web,
+  desenvolvendo um site do começo com as tecnologias que já aprendi.
   
-## Built With
-
+## Built With:
 * HTML
 * CSS
 * JS
