@@ -36,6 +36,10 @@ header {
     color: orangered;
 }
 
+.logo a::after {
+    color:orangered;
+}
+
 .hamburguer-menu {
     display: none;
 }
